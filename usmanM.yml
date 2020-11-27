@@ -1,0 +1,9 @@
+---
+- name: my first publiv playbook
+  hosts: all
+  tasks:
+    - name: adding user 
+      user:
+        name: inayah
+        state: present
+...
